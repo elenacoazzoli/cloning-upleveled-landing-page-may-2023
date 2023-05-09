@@ -50,15 +50,26 @@ export default function App() {
       <main className={`${styles.container} ${styles.main}`}>
         <section className={styles.heroSection}>
           <div className={styles.heroSectionContent}>
-            <span>Growth & ROI</span>
-            <h1>Personalized images for Email marketing</h1>
+            <span className={styles.titleDescription}>Growth & ROI</span>
+            <h1 className={styles.mainTitle}>
+              Personalized images for Email marketing
+            </h1>
             <p>
               Send unique and personalized images to each of your recipient!
               Works perfectly for email marketing campaigns, E-commerce stores,
               or blogs at scale..
             </p>
-            <a href="/#">Personalize my Images</a>
-            <a href="/#">Request Demo</a>
+            <div className={styles.heroButtonsContainer}>
+              <a href="/#" className={styles.baseHeroButton}>
+                Personalize my Images
+              </a>
+              <a
+                href="/#"
+                className={`${styles.baseHeroButton} ${styles.orangeHeroButton}`}
+              >
+                Request Demo
+              </a>
+            </div>
           </div>
 
           <img
@@ -78,12 +89,12 @@ export default function App() {
             className={styles.coloredBlob}
           />
           <div className={styles.sectionContent}>
-            <span>Personalization</span>
+            <span className={styles.titleDescription}>Personalization</span>
             <h2>What is a Personalized Image?</h2>
             <p>
-              Engage with your audience like never before. Use your subscriber
-              data to Personalize your visual content. Stand out from the crowd
-              and deliver a fully customized customer experience
+              Engage with your audience like never before. <br /> Use your
+              subscriber data to Personalize your visual content. Stand out from
+              the crowd and deliver a fully customized customer experience
             </p>
           </div>
 
@@ -92,29 +103,29 @@ export default function App() {
             className={styles.videoImage}
             alt=""
           />
-          <div>
-            <div>
+          <div className={styles.contentGrid}>
+            <div className={styles.gridContent}>
               <span>Personalize any layer</span>
               <p>
                 Every layer of your Abyssale templates can be personalized with
                 subscriber data
               </p>
             </div>
-            <div>
+            <div className={styles.gridContent}>
               <span>Personalize any layer</span>
               <p>
                 Every layer of your Abyssale templates can be personalized with
                 subscriber data
               </p>
             </div>
-            <div>
+            <div className={styles.gridContent}>
               <span>Personalize any layer</span>
               <p>
                 Every layer of your Abyssale templates can be personalized with
                 subscriber data
               </p>
             </div>
-            <div>
+            <div className={styles.gridContent}>
               <span>Personalize any layer</span>
               <p>
                 Every layer of your Abyssale templates can be personalized with
@@ -125,6 +136,9 @@ export default function App() {
         </section>
       </main>
       <footer>my footer</footer>
+      <div className={styles.chatBot}>
+        <div className={styles.botImage}>&nbsp;</div>
+      </div>
     </>
   );
 }
