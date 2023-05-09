@@ -1,0 +1,123 @@
+.container {
+  max-width: 1192px;
+  margin: auto;
+}
+
+.baseHeaderButton {
+  border: 0;
+  border-radius: 8px;
+  padding: 8px 12px;
+  font-size: 0.875rem;
+  font-weight: 700;
+  box-shadow: 0 0 4px -1px rgba(0, 0, 0, 0.3);
+  transition: background-color 500ms;
+
+  &:hover {
+    background-color: #000;
+    color: white;
+  }
+}
+
+.headerButtonBlue {
+  box-shadow: none;
+  background-color: #0032ff;
+  color: white;
+}
+
+.promoSection {
+  background-color: #dc95b4;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  gap: 32px;
+  padding: 16px 0;
+
+  a {
+    color: #fff;
+    font-weight: 600;
+    font-size: 0.875rem;
+
+    &:hover {
+      color: #0032ff;
+    }
+  }
+}
+
+.header {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 9;
+}
+
+.navigationBar {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100%;
+  background-color: #fff;
+  gap: 40px;
+
+  ul {
+    list-style: none;
+    display: flex;
+    padding: 0;
+    margin: 0;
+    gap: 40px;
+    flex: 1;
+
+    li {
+      padding: 32px 0;
+      font-weight: 500;
+    }
+  }
+
+  .headerButtonsContainer {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+}
+
+.main {
+  margin-top: 170px;
+}
+
+.heroSection {
+  display: grid;
+  grid-template-columns: 1fr 0.8fr;
+  align-items: center;
+
+  .heroSectionContent {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+.secondSection {
+  background-color: #fff6f4;
+  border-radius: 24px;
+  padding: 72px;
+  position: relative;
+
+  .sectionContent {
+    position: relative;
+    z-index: 1;
+  }
+
+  .videoImage {
+    width: 100%;
+    position: relative;
+    z-index: 1;
+  }
+
+  .coloredBlob {
+    position: absolute;
+    right: 32px;
+    z-index: 0;
+    width: 25%;
+    height: auto;
+  }
+}
