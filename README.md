@@ -1,70 +1,38 @@
-# Getting Started with Create React App
+# Cloning a landing page with CSS Modules and SASS - UpLeveled PERN Bootcamp Spring 2023 
+In this project, we have copied the styling of a landing page in order to learn some basic concepts of styling and use CSS Modules and SASS. 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+**Original landing page screenshots:**
 
-## Available Scripts
+<img width="1677" alt="Screenshot 2023-05-09 at 21 23 26" src="https://github.com/elenacoazzoli/cloning-upleveled-landing-page-may-2023/assets/16699231/15a7c71d-c50d-493b-84a0-668fd00d4e04">
 
-In the project directory, you can run:
+<img width="1678" alt="Screenshot 2023-05-09 at 21 28 18" src="https://github.com/elenacoazzoli/cloning-upleveled-landing-page-may-2023/assets/16699231/73b328a9-ec1c-49f8-87ca-47e55d2eadb4">
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+**Cloned landing page screenshots:**
 
-### `npm test`
+<img width="1675" alt="Screenshot 2023-05-09 at 21 25 36" src="https://github.com/elenacoazzoli/cloning-upleveled-landing-page-may-2023/assets/16699231/6afbdbb7-7149-414e-8019-e21325a96b0c">
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+<img width="1675" alt="Screenshot 2023-05-09 at 21 28 31" src="https://github.com/elenacoazzoli/cloning-upleveled-landing-page-may-2023/assets/16699231/a61b103e-d7ca-4825-acc9-69db8949db88">
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Some useful links about topics covered:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Pixels, rems, ems
+https://www.joshwcomeau.com/css/surprising-truth-about-pixels-and-accessibility/
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Flex
+https://css-tricks.com/snippets/css/a-guide-to-flexbox/
 
-### `npm run eject`
+https://codepen.io/smpnjn/pen/jOazqZE
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### Grid
+https://css-tricks.com/snippets/css/complete-guide-grid/ 
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Position static, fixed, absolute, relative
+https://css-tricks.com/absolute-relative-fixed-positioining-how-do-they-differ/
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### Browsers' default CSS for HTML elements
+https://stackoverflow.com/questions/6867254/browsers-default-css-for-html-elements
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
